@@ -4,15 +4,161 @@
   position: relative;
 } */
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 1rem;
+  gap: 20px;
+  top: 0%;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 30px;
+  gap: 30px;
+  font-size: 50px;
+  background-color: rgba(168, 174, 182, 0.884);
+  text-align: center;
+  opacity: unset;
+  border-style: double;
+  color: rgb(49, 49, 68);
+}
+
+a {
+  font-family: "Gruppo", cursive;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  justify-content: center;
+}
+
+a:hover {
+  color: #f3eded;
+}
+
+/* main {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+} */
+
 h1 {
-  font-size: large;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
+  background-color: rgb(165, 158, 158);
+  margin: 23px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-family: "Gruppo", cursive;
+  text-align: center;
+  border-style: double;
 }
 
 h2 {
-  font-size: medium;
-  font-family: "Courier New", Courier, monospace;
-  color: gray;
+  background-color: rgb(165, 158, 158);
+  margin: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: "Gruppo", cursive;
+  border-style: double;
+  gap: 30px;
+  text-align: center;
 }
 
+p {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Gruppo", cursive;
+  justify-content: center;
+  text-align: center;
+}
+
+#first_section {
+  display: grid;
+  grid-template-columns: 1fr;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(a6intro.png);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+}
+
+html {
+  background-color: rgb(101, 105, 107);
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin: 0;
+  padding: 21px;
+}
+
+video {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  margin: 0;
+  padding: 11px;
+}
+
+img {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+#third_section {
+  display: grid;
+}
+
+div {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Gruppo", cursive;
+}
